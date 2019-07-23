@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BasicShapes">
+      <UniqueIdentifier>{bae44aad-d793-407f-8b21-fd26fbb23f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GBuffer">
+      <UniqueIdentifier>{8494c922-f745-43ec-ab70-1aa1a7230cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gizmos">
+      <UniqueIdentifier>{1d97c504-6105-4f70-a4bb-632f7e23a7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting">
+      <UniqueIdentifier>{a977d39a-f1ea-42d8-81a0-8f8b023db04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lodepng">
+      <UniqueIdentifier>{4774cba6-baaa-4ea8-8c4a-4b1ec47ae3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{612f4c76-cf47-4d58-8fbe-1a2eeb81266c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderTokens">
+      <UniqueIdentifier>{12411954-9c54-4c52-94ff-a4c976ad6384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{f23d5485-85ba-4869-b770-ff469af08336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shadows">
+      <UniqueIdentifier>{a3beefa2-1108-42a5-8b15-705a2354b00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SubRenderers">
+      <UniqueIdentifier>{1a5336f9-fe1e-483f-a3f9-42ca4214defa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Terrain">
+      <UniqueIdentifier>{d19987c0-a6fe-45ab-b35c-9d2675ddeb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texturing">
+      <UniqueIdentifier>{d680a3f8-8082-4fd0-85bf-b091de24b3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BasicShapes">
+      <UniqueIdentifier>{4e08bed1-682a-4f48-b63d-31bac6b9d8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GBuffer">
+      <UniqueIdentifier>{aba91943-2df8-4e37-a475-59348d8ab899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gizmos">
+      <UniqueIdentifier>{6ad05a05-e32b-4613-8959-4517d078c80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lighting">
+      <UniqueIdentifier>{6c607f88-0df3-4357-bb2d-0ecfc014da3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lodepng">
+      <UniqueIdentifier>{1d28bcff-5dab-4668-9c1d-dae43adbf882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{9f658e66-fdc0-491a-8cf8-7cd2e4d39236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{d35a736a-99ee-4ad8-8dd8-167ccc08261c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadows">
+      <UniqueIdentifier>{2391ba13-3db2-4c8b-8563-badb8cac61fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubRenderers">
+      <UniqueIdentifier>{8c378249-e1e1-4ada-8034-58e3fc0816fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Terrain">
+      <UniqueIdentifier>{764b8887-36c4-42cd-aff2-9534ab51048d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texturing">
+      <UniqueIdentifier>{95dbdc76-3f54-4459-8655-88dba33bb291}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicShapes.h">
+      <Filter>Header Files\BasicShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="GBuffer.h">
+      <Filter>Header Files\GBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GizmoMesh.h">
+      <Filter>Header Files\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="GizmoMeshCube.h">
+      <Filter>Header Files\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng.h">
+      <Filter>Header Files\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferedRendererData.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugPrimitive.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableSet.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererLibCommon.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererUtils.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderToken.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTokenBasicShape.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTokenDebugPrimitive.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTokenGizmo.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTokenHighlightStaticMesh.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTokenLine.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTokenSky.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTokenStaticMesh.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTokenTerrain.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTokenTerrainCDLODNode.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererTokenBasicShape.h">
+      <Filter>Header Files\RenderTokens</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLightShadowBasis.h">
+      <Filter>Header Files\Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRenderer.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererBasicShape.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererBasicShapeShadow.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererBoundingVolume.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererDirectionalLight.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererGizmo.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererHighlightStaticMesh.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererLine.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererSky.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererStaticMesh.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererStaticMeshShadow.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererTerrainCDLODNode.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererTerrainCDLODNodeShadow.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SubRendererTerrainNaive.h">
+      <Filter>Header Files\SubRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererTerrain.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererTerrainCDLOD.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererTerrainCDLODNode.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererTerrainCDLODOps.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererTerrainCDLODRanges.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererTerrainCommon.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererTerrainNaive.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Texturing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicShapes.cpp">
+      <Filter>Source Files\BasicShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="GBuffer.cpp">
+      <Filter>Source Files\GBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GizmoMesh.cpp">
+      <Filter>Source Files\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="GizmoMeshCube.cpp">
+      <Filter>Source Files\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.cpp">
+      <Filter>Source Files\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRenderer.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererBasicShape.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererBasicShapeShadow.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererBoundingVolume.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererDirectionalLight.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererGizmo.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererHighlightStaticMesh.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererLine.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererSky.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererStaticMesh.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererStaticMeshShadow.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererTerrainCDLODNode.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererTerrainCDLODNodeShadow.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SubRendererTerrainNaive.cpp">
+      <Filter>Source Files\SubRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferedRendererData.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugPrimitive.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableSet.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererUtils.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererTerrain.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererTerrainCDLOD.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererTerrainCDLODNode.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererTerrainCDLODOps.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererTerrainCDLODRanges.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererTerrainNaive.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLightShadowBasis.cpp">
+      <Filter>Source Files\Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Texturing</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
